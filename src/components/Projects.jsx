@@ -34,6 +34,20 @@ function Projects() {
                         transition={{duration:1}}
                         className="w-full max-w-xl l:w-3/4">
                           <h6 className="mb-2 font-semibold">{proj.title}</h6>
+                           
+                            <a href="https://github.com/taniasalmatwbm/Mern-Ecommerce" target="_blank" rel="noopener noreferrer">
+                            <button className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
+
+                           View Project Github Link</button>
+                            
+                            </a> 
+                           {"  "}
+                           
+                            <a href="https://drive.google.com/file/d/1XTsPPbKmAhnC5ImMAxrtgZAL9Rfp5Buy/view" target="_blank" rel="noopener noreferrer">
+                           <button className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
+
+                          View Project Demo Vide</button>
+                           </a> 
                           <p className="mb-4 text-neutral-400">{proj.description}</p>
                            {
                             proj.technologies.map((tech, index)=>(

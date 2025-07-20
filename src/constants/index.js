@@ -3,74 +3,80 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Motivated and detail-oriented React Developer with hands-on experience in
+building dynamic and responsive MERN stack web applications. Strong command
+of modern frontend tools like React.js and Redux Toolkit, and foundational backend
+knowledge using Node.js, Express.js, and MongoDB. Successfully developed realworld projects following industry best practices.
+Currently seeking an internship or junior-level opportunity in MERN Stack
+development to contribute to innovative projects and further enhance technical
+skills.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate MERN Stack developer currently seeking internship opportunities to apply and grow my skills in real-world projects. I have hands-on experience with MongoDB, Express.js, React.js, and Node.js. I love solving JavaScript problems and continuously improving through building projects and learning new technologies.
+I have built several full-stack projects using REST APIs, JWT authentication, and modern React features like hooks and context.
+Currently learning advanced backend integration and deployment strategies.
 
-export const EXPERIENCES = [
+Clear intent: looking for internship 
+
+Tools mentioned: MERN stack 
+
+Practical knowledge: projects, REST APIs, JWT 
+
+Ongoing learning: backend & deployment `;
+
+export const EDUCATION = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: " 2021 - 2023",
+    role: "Master of Computer Science (MCS)",
+    company: "Superior University, Lahore.",
+    description: `CGPA 2.75`,
+    
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2018 - 2020",
+    role: "ADP(CS)  in Computer Science ",
+    company: "Superior College, Lahore.",
+    description: `CGPA 3.00`,
+    
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "2016 - 2018 ",
+    role: "ICS in Computer Science",
+    company: "Wahdat Women College",
+    description: `70%`,
+    
+  }
+
 ];
 
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
+    DemoVideoLink:"https://drive.google.com/file/d/1XTsPPbKmAhnC5ImMAxrtgZAL9Rfp5Buy/view",
+    link: "https://github.com/taniasalmatwbm/Mern-Ecommerce",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication User Authentication (Login/Register with JWT), Role-based Access (Admin/User),Product Management (Listing, Search, Filters), Payment Integration (Stripe), Admin Panel (Product & Order Management).",
+    technologies: ["React vite", "Ajax", "Node.js","Express.js", "MongoDB"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
+    link:"",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An application for managing complete portfolio, with the knowledge of complete working detail.",
+    technologies: ["React vite", "Ajax", "TailWind CSS", "Framer Motion"],
   },
   {
     title: "Blogging Platform",
-    image: project4,
+    image: project3,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    technologies: ["React vite", "Backend handle with Appwrite"],
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+0349-0000000 ",
-  email: "taniasalmat@.com",
+  address: "Thokar Niaz Beig Multan Road, near Cannal View Society",
+  phoneNo: "0349-4482839",
+  email: "taniasalamat2@gmail.com",
 };
