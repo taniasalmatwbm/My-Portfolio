@@ -21,9 +21,9 @@ function Hero() {
              animate="visible"
              variants={container(0)}
             className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
-              Tania Salamat
+              MERN Stack Development
             </motion.h1>
-            <motion.span
+            {/* <motion.span
             initial="hidden"
             animate="visible"
             variants={container(0.5)}
@@ -31,7 +31,7 @@ function Hero() {
                to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
               Full Stack Developer
-            </motion.span>
+            </motion.span> */}
             <motion.p 
             initial="hidden"
             animate="visible"
